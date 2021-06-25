@@ -77,7 +77,7 @@ export default {
             let data = new FormData(form);
             disable.value = true;
             axios
-                .post('/api/persons/', data)
+                .post('/api/persons', data)
                 .then((response) => {
                     if (response.data.data === true) {
                         successMsg.value = response.data.message;

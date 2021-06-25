@@ -25,7 +25,7 @@ export default {
         const token = ref('');
 
         function createToken() {
-            axios.post('/api/create-token/')
+            axios.post('/api/create-token')
                 .then(response => token.value = response.data.token)
                 .catch(error => token.value = error);
         }
