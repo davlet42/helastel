@@ -21,12 +21,12 @@ class PersonExport implements FromArray, WithHeadings
         $this->persons = $data;
     }
 
-    public function array(): array
+    public function array() : array
     {
         return $this->persons;
     }
 
-    public function headings(): array
+    public function headings() : array
     {
         return [
             'Name',

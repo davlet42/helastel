@@ -18405,7 +18405,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* HYDRATE_EVENTS */
   )])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)("button", {
     type: "submit",
-    "class": "whitespace-nowrap inline-flex items-center px-4 py-2 bg-gray-800 border\r\n\t\t\t\tborder-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest\r\n\t\t\t\thover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300\r\n\t\t\t\tdisabled:opacity-25 transition ease-in-out duration-150",
+    "class": "whitespace-nowrap inline-flex items-center px-4 py-2 bg-gray-800 border\n\t\t\t\tborder-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest\n\t\t\t\thover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300\n\t\t\t\tdisabled:opacity-25 transition ease-in-out duration-150",
     disabled: $setup.disable
   }, " Create ", 8
   /* PROPS */
@@ -18453,7 +18453,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       $setup.createToken();
     }),
     type: "button",
-    "class": "whitespace-nowrap inline-flex items-center px-4 py-2 bg-gray-800 border\r\n\t\t\tborder-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest\r\n\t\t\thover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300\r\n\t\t\tdisabled:opacity-25 transition ease-in-out duration-150"
+    "class": "whitespace-nowrap inline-flex items-center px-4 py-2 bg-gray-800 border\n\t\t\tborder-transparent rounded-md font-semibold text-xs text-white uppercase tracking-widest\n\t\t\thover:bg-gray-700 active:bg-gray-900 focus:outline-none focus:border-gray-900 focus:ring ring-gray-300\n\t\t\tdisabled:opacity-25 transition ease-in-out duration-150"
   }, " Generate ")]), $setup.token != '' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createBlock)("div", _hoisted_3, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)($setup.token), 1
   /* TEXT */
   )) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)], 64

@@ -41,7 +41,7 @@ class RepositoryServiceProvider extends ServiceProvider
      * @param string
      * @return string
      */
-    public function repositorySwitcher(string $source) : string
+    public function repositorySwitcher(?string $source) : string
     {
         switch ($source) {
             case 'db':
